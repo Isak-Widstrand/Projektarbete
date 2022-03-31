@@ -2,15 +2,51 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Tevvez2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  border: 2px solid black;
+  font-size: 2vh;
+  text-align: center;
+  background-color: black;
+}
+
+#Login {
+  float: left;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Moon Dance", cursive;
+}
+
+ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  padding-bottom: 7px;
+  border-bottom: 3px solid white;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 5%;
+  padding: 0;
+  display: inline;
+  font-size: 2vw;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/Tevvez.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 85vw;
+  height: 80vh;
+  margin: 6%;
   position: relative;
 }
 
@@ -21,4 +57,6 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: "Moon Dance", cursive;
+  font-size: 150%;
 }
