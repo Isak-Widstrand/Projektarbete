@@ -60,3 +60,33 @@ ul li {
   font-family: "Moon Dance", cursive;
   font-size: 150%;
 }
+
+.flex-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+}
+
+.flex-container img{
+  width: 30vw;
+  height: 45vh;
+  margin-bottom: 2%;
+}
+
+footer{
+  border: 2px solid black;
+  font-size: 2vh;
+  text-align: center;
+  background-color: black;
+}
+
+footer p{
+  color: white;
+  text-decoration: none;
+  font-family: "Moon Dance", cursive;
+  font-size: 200%;
+}
