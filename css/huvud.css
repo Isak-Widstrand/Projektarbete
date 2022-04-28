@@ -95,6 +95,11 @@ ul li button {
   margin-bottom: 2%;
 }
 
+.image-container:hover{
+  transform: scale(0.9);
+
+}
+
 .image-container {
   position: relative;
   text-align: center;
