@@ -95,15 +95,20 @@ ul li button {
   margin-bottom: 2%;
 }
 
-.image-container:hover{
-  transform: scale(0.9);
-
+@keyframes overImage{
+  from {width: 30vw; height: 45vh;}
+  to {width: 27vw; height: 41vh;}
 }
 
 .image-container {
   position: relative;
   text-align: center;
   color: black;
+  transition: all 1s;
+}
+
+.image-container:hover{
+  transform: scale(0.9);
 }
 
 .image-text{
