@@ -44,7 +44,7 @@ ul li a:hover {
 
 ul li {
   list-style-type: none;
-  margin-right: 8vw;
+  margin-right: 11vw;
   padding: 0;
   display: inline;
   font-size: 2vw;
@@ -54,7 +54,7 @@ ul li input[type=text] {
   float: right;
   padding: 6px;
   border: none;
-  font-size: 2vw;
+  font-size: 2vh;
 }
 
 ul li button {
@@ -62,7 +62,7 @@ ul li button {
   padding: 6px;
   background: black;
   color: white;
-  font-size: 2vw;
+  font-size: 2vh;
   border: none;
   cursor: pointer;
 }
