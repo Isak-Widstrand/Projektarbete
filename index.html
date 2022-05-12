@@ -16,6 +16,7 @@
       src="https://kit.fontawesome.com/4b39a549d2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../javascript/javascript.js"></script>
     <title>hunk AB onlineshop</title>
   </head>
   <body>
@@ -43,7 +44,16 @@
             </div>
           </li>
         </ul>
-        <i id="mobile-menu-icon" class="fas fa-bars"></i>
+        <div>
+          <button onclick="dropMenu()" class="button">
+            <i id="mobile-menu-icon" class="fas fa-bars"></i>
+          </button>
+          <div id="drop" class="dropdown-content">
+            <a href="#home">erbjudande</a>
+            <a href="#about">priser</a>
+            <a href="../html.folder/contact.html">Contact us</a>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
