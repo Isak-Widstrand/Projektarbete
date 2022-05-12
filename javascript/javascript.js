@@ -3,7 +3,7 @@ function dropMenu() {
 }
 
 window.onclick = function (event) {
-  if (!event.target.matches(".meny")) {
+  if (!event.target.matches(".")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
