@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/huvud.css" />
+    <link rel="stylesheet" href="/css/login.css" />
     <script
       src="https://kit.fontawesome.com/2fc01d33bd.js"
       crossorigin="anonymous"
@@ -37,6 +38,39 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <section>
+        <div class="container">
+          <form action="action_page.php">
+            <label for="fname">Förnamn</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Förnamn"
+            />
+
+            <label for="lname">Efternamn</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Efternamn"
+            />
+
+            <label for="subject">Vad är din fråga</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Din fråga ..."
+              style="height: 30vh"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
     <footer>
       <p>
         <i class="fas fa-id-card-alt"></i>
