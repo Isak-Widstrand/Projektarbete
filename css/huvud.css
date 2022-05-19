@@ -71,36 +71,20 @@ ul li button {
   margin-left: auto; 
   margin-right: 20px;
   display: none;
-}
-
-.meny{
-  display: none;
-}
-
-#drop{
-  margin-right: 300%;
-  position: auto;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: -15vw;
-  background-color: black;
-  min-width: 5%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  font-size: 3vh;
+}
+
+#myLinks {
+  display: none;
+}
+
+#myLinks a{
+  color: white;
+  padding: 1.4vw 1.6vw;
+  text-decoration: none;
+  font-size: 2vh;
+  display: block
 }
 
 body{
@@ -112,6 +96,12 @@ body{
   height: 80vh;
   margin: 6%;
   position: relative;
+}
+
+.hero-container{
+  position: relative;
+  text-align: center;
+  color: black;
 }
 
 .hero-text {
@@ -186,8 +176,19 @@ footer p{
     display: none; /* döljer listan med de "vanliga" meny-länkarna */
   }
 
-  .meny{
-    display: block;
+  .icon {
+    size: 5vh;
+  }
+
+  .flex-container img{
+    width: 98vw;
+    height: 75vh;
+    margin-bottom: 2%;
+  }
+  
+  @keyframes overImage{
+    from {width: 90vw; height: 75vh;}
+    to {width: 85vw; height: 70vh;}
   }
 }
 
@@ -214,4 +215,8 @@ tr:nth-child(odd) {
 tfoot tr td{
   background-color: blue;
   color: white;
+}
+
+.randomKod {
+  background-color: white;
 }
