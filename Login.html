@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/huvud.css" />
     <link rel="stylesheet" href="/css/login.css" />
+    <script src="../javascript/javascript.js"></script>
     <script
       src="https://kit.fontawesome.com/2fc01d33bd.js"
       crossorigin="anonymous"
@@ -20,22 +21,25 @@
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">Startsida</a>
           </li>
           <li>
-            <a href="#Kosttillskott">Kosttillskott</a>
-          </li>
-          <li>
-            <a href="#Träningsredskap">Träningsredskap</a>
-          </li>
-          <li><a href="#Kläder">Kläder</a></li>
-          <li>
-            <input type="text" placeholder="Search!" />
-            <a href="NoResult.html">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </a>
+            <div>
+              <input type="text" placeholder="Search!" />
+              <a href="NoResult.html"
+                ><button type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </a>
+            </div>
           </li>
         </ul>
+        <a href="javascript:void(0);" class="icon" onclick="onClick()">
+          <i id="mobile-menu-icon" class="fas fa-bars"></i>
+        </a>
+        <div id="myLinks">
+          <a href="index.html">Startsida</a>
+        </div>
       </nav>
     </header>
     <main>
@@ -68,6 +72,11 @@
 
             <input type="submit" value="Submit" />
           </form>
+        </div>
+      </section>
+      <section>
+        <div class="map-container">
+          <img src="images/dåligMap.png" alt="Map på Åva" />
         </div>
       </section>
     </main>
